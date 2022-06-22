@@ -6,6 +6,7 @@ import (
 	"io"
 	"os"
 	"strings"
+	"path/filepath"
 )
 
 // 判断所给路径是否为文件夹
