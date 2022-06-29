@@ -1,9 +1,14 @@
 package main
 
-import "github.com/out06/imjl/Util"
+import (
+	"fmt"
+	"github.com/out06/imjl/Util"
+)
 
 func main() {
-	Util.Hi()
+	//Util.Hi()
+	//
+	//Util.Httpget()
 
-	Util.Httpget()
+	fmt.Println(Util.ReadFile())
 }
